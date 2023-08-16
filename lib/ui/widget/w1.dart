@@ -7,7 +7,7 @@ class W1 extends StatelessWidget {
       required this.onAdd,
       required this.onSub});
   final double value;
-  final VoidCallback onAdd;
+  final Function onAdd;
   final VoidCallback onSub;
 
   @override
